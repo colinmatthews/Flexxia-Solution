@@ -1,0 +1,249 @@
+{
+  "tilesSection": [
+    {
+      "tileNumber" : 128,
+      "tileText": "Total Registrations",
+      "tileBgColor": "#2fa9e0"
+    },
+    {
+      "tileNumber" : 360,
+      "tileText": "Total Referrals",
+      "tileBgColor": "#f34b99"
+    },
+    {
+      "tileNumber" : 96,
+      "tileText": "Number of Sessions",
+      "tileBgColor": "#99dc3b"
+    },
+    {
+      "tileNumber" : 4.5 ,
+      "tileText": "Overall Satisfaction",
+      "tileBgColor": "#f3c848"
+    }
+  ],
+  "contentSection": [
+    {
+      "blockId": 677853220,
+      "class": "col-md-6",
+      "blockClasses": "height-400 overflow-hidden position-relative",
+      "type": "chart",
+      "top": {
+        "enable": true,
+        "value": null
+      },
+      "middle": {
+        "enable": true,
+        "middleTop": null,
+        "middleMiddle": {
+          "middleMiddleLeftClass": "",
+          "middleMiddleLeft": "",
+          "middleMiddleMiddleClass": "",
+          "middleMiddleMiddle": {
+            "chartId": 1378422883,
+            "chartType": "Bar",
+            "chartClass": "",
+            "chartTitle": "Identify and address only render on getBlockMultiContainer",
+            "chartData": {
+              "labels": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "datasets": [
+                {
+                  "fillColor": [
+                    "#56bfb5",
+                    "#f24b99",
+                    "#344a5f",
+                    "#bfbfbf",
+                    "#e6e6e6"
+                  ],
+                  "strokeColor": [
+                    "#56bfb5",
+                    "#f24b99",
+                    "#344a5f",
+                    "#bfbfbf",
+                    "#e6e6e6"
+                  ],
+                  "pointColor": "#05d23e",
+                  "pointStrokeColor": "#fff",
+                  "data": [
+                    500,
+                    140,
+                    14,
+                    12
+                  ]
+                },
+                {
+                  "fillColor": "#f24b99",
+                  "strokeColor": "#ffffff",
+                  "pointColor": "#05d23e",
+                  "pointStrokeColor": "#fff",
+                  "data": [
+                    35,
+                    15,
+                    15,
+                    19
+                  ]
+                }
+              ]
+            },
+            "chartOptions": {
+              "animation": true,
+              "animationSteps": 50,
+              "annotateClassName": "my11001799tooltip",
+              "annotateDisplay": true,
+              "annotateLabel": "<%=Math.round(100*(v3/grandtotal)) + \"%\"%>",
+              "datasetFill": false,
+              "datasetStrokeWidth": 2,
+              "inGraphDataBordersXSpace": 12,
+              "inGraphDataBordersYSpace": 7,
+              "inGraphDataFontColor": "#000",
+              "inGraphDataFontSize": 15,
+              "inGraphDataFontStyle": "normal normal",
+              "inGraphDataPaddingY": 5,
+              "inGraphDataShow": true,
+              "inGraphDataTmpl": "<%=(v3 < 1) ? \"\"  : v3%>",
+              "maxLegendCols": 5,
+              "responsive": true,
+              "responsiveMaxHeight": 370,
+              "responsiveMinHeight": 280,
+              "spaceBottom": 10,
+              "spaceTop": 30,
+              "legend": false,
+              "legendBlockSize": 14,
+              "legendBorders": false,
+              "legendFontColor": "#000",
+              "legendFontFamily": "Roboto,'Helvetica Neue',sans-serif",
+              "legendPosX": 2,
+              "legendPosY": 0,
+              "legendSpaceAfterText": 0,
+              "legendSpaceBeforeText": 10,
+              "legendSpaceBetweenBoxAndText": 9,
+              "legendSpaceBetweenTextHorizontal": 15,
+              "legendSpaceBetweenTextVertical": 28,
+              "legendSpaceLeftText": 18,
+              "barValueSpacing": 24,
+              "barBorderRadius": 5,
+              "barStrokeWidth": 2,
+              "graphMin": 0,
+              "pointDotRadius": 6,
+              "scaleFontSize": 14,
+              "yAxisMinimumInterval": 10,
+              "yScaleLabelsMinimumWidth": 40
+            }
+          },
+          "middleMiddleRightClass": "",
+          "middleMiddleRight": ""
+        },
+        "middleBottom": ""
+      },
+      "bottom": {
+        "enable": true,
+        "value": null
+      }
+    },
+    {
+      "blockId": 675480598,
+      "class": "col-md-6",
+      "blockClasses": "height-400 overflow-hidden position-relative",
+      "type": "chart",
+      "top": {
+        "enable": true,
+        "value": null
+      },
+      "middle": {
+        "enable": true,
+        "middleTop": null,
+        "middleMiddle": {
+          "middleMiddleLeftClass": "",
+          "middleMiddleLeft": "",
+          "middleMiddleMiddleClass": "",
+          "middleMiddleMiddle": {
+            "chartId": 1986037013,
+            "chartType": "Pie",
+            "chartClass": "col-md-6 opacity-05",
+            "chartTitle": "Identify and address only render on getBlockMultiContainer",
+            "chartData": [
+              {
+                "value": 45,
+                "color": "#2fa9e0",
+                "title": "1(12)"
+              },
+              {
+                "value": 12,
+                "color": "#f24b99",
+                "title": "2(28)"
+              },
+              {
+                "value": 32,
+                "color": "#37d8b3",
+                "title": "3(9)"
+              },
+              {
+                "value": 15,
+                "color": "#bfbfbf",
+                "title": "4(5)"
+              }
+            ],
+            "chartOptions": {
+              "animation": true,
+              "animationSteps": 50,
+              "annotateClassName": "my11001799tooltip",
+              "annotateDisplay": true,
+              "annotateLabel": "<%=v2%>",
+              "datasetFill": false,
+              "datasetStrokeWidth": 2,
+              "inGraphDataBordersXSpace": 12,
+              "inGraphDataBordersYSpace": 7,
+              "inGraphDataFontColor": "#ffffff",
+              "inGraphDataFontSize": 15,
+              "inGraphDataFontStyle": "normal normal",
+              "inGraphDataPaddingY": 5,
+              "inGraphDataShow": true,
+              "inGraphDataTmpl": "<%=Math.round(v6 < 5) ? \"\" : Math.round(v6) + \"%\"%>",
+              "maxLegendCols": 5,
+              "responsive": true,
+              "responsiveMaxHeight": 370,
+              "responsiveMinHeight": 280,
+              "spaceBottom": 10,
+              "spaceTop": 20,
+              "legend": false,
+              "legendBlockSize": 14,
+              "legendBorders": false,
+              "legendFontColor": "#000",
+              "legendFontFamily": "Roboto,'Helvetica Neue',sans-serif",
+              "legendPosX": 2,
+              "legendPosY": 0,
+              "legendSpaceAfterText": 0,
+              "legendSpaceBeforeText": 10,
+              "legendSpaceBetweenBoxAndText": 9,
+              "legendSpaceBetweenTextHorizontal": 15,
+              "legendSpaceBetweenTextVertical": 28,
+              "legendSpaceLeftText": 18,
+              "barValueSpacing": 0,
+              "bezierCurveTension": 0.1,
+              "inGraphDataAlign": "center",
+              "inGraphDataAnglePosition": 2,
+              "inGraphDataPaddingRadius": 25,
+              "inGraphDataRadiusPosition": 2,
+              "percentageInnerCutout": 99,
+              "pointDotRadius": 6,
+              "title": "",
+              "yAxisMinimumInterval": 20
+            }
+          },
+          "middleMiddleRightClass": "",
+          "middleMiddleRight": ""
+        },
+        "middleBottom": ""
+      },
+      "bottom": {
+        "enable": true,
+        "value": null
+      }
+    }
+  ]
+}
