@@ -54,6 +54,8 @@ fetch("Task-json.json")
 		  }
 		});
 
+		// Graph-Conainer Component
+		// wrapper for the graph, renders the title bar and the graph component
 		Vue.component('graph-container',{
 			props:['title'],
 			template: `<div class="graph-wrapper">
